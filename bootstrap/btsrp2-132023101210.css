@@ -1,0 +1,13 @@
+
+.navbar-nav .nav-link,
+.navbar-brand {
+font-family: 'Inter', sans-serif;
+font-size: 16px;
+}
+
+@supports (font-variation-settings: normal) {
+.navbar-nav .nav-link,
+.navbar-brand {
+    font-family: 'Inter Variable', sans-serif;
+}
+}
