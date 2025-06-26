@@ -1,0 +1,247 @@
+/* This would normally be in css/style.css */
+        
+/* General Styles */
+body {
+    font-family: 'Inter', sans-serif;
+    color: #232536;
+}
+
+/* Navbar Styles */
+.navbar-nav .nav-link {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    margin-left: 20px;
+    font-weight: 500;
+}
+
+/* Hero Section */
+.hero {
+    padding: 80px 0;
+    background-color: #f9f9f9;
+}
+
+.featured-label {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #232536;
+    margin-bottom: 10px;
+}
+
+.hero-title {
+    font-family: 'Sen', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #232536;
+}
+
+.hero-description {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: #6D6E76;
+    line-height: 1.6;
+}
+
+.read-more {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    padding: 10px 25px;
+    background-color: #FFD050;
+    border: none;
+    color: #232536;
+    font-weight: 600;
+}
+
+.read-more:hover {
+    background-color: #e6bb48;
+    color: #232536;
+}
+
+.hero-image-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* All Posts Section */
+.section-title {
+    font-family: 'Sen', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    color: #232536;
+}
+
+.post-card {
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 100%;
+    transition: transform 0.3s ease;
+}
+
+.post-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.post-image {
+    height: 100%;
+    min-height: 150px;
+    border-radius: 10px 0 0 10px;
+}
+
+.post-label {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #592EA9;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.post-title {
+    font-family: 'Sen', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #232536;
+}
+
+@media (min-width: 768px) {
+    .post-title {
+        font-size: 36px;
+    }
+}
+
+.post-description {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #6D6E76;
+}
+
+/* All Categories Section */
+.category-card {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    height: 100%;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.category-card:hover {
+    background-color: #FFD050;
+    transform: translateY(-5px);
+}
+
+.icon-container {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #232536;
+}
+
+.category-title {
+    font-family: 'Sen', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #232536;
+}
+
+.category-description {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #6D6E76;
+}
+
+/* Join Team Section */
+.join-team {
+    padding: 80px 0;
+    background-color: #f9f9f9;
+}
+
+.join-title {
+    font-family: 'Sen', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #232536;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.join-description {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    color: #6D6E76;
+    margin-bottom: 30px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.join-btn {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    padding: 12px 30px;
+    background-color: #FFD050;
+    border: none;
+    color: #232536;
+    font-weight: 600;
+}
+
+.join-btn:hover {
+    background-color: #e6bb48;
+    color: #232536;
+}
+
+/* Footer */
+.footer {
+    background-color: #0066CC;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 991px) {
+    .hero-title {
+        font-size: 36px;
+    }
+    
+    .section-title {
+        font-size: 36px;
+    }
+    
+    .post-title {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 767px) {
+    .hero-title {
+        font-size: 28px;
+    }
+    
+    .section-title {
+        font-size: 28px;
+    }
+    
+    .join-title {
+        font-size: 28px;
+    }
+    
+    .post-image {
+        min-height: 120px;
+    }
+}
