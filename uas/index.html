@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Belanja.com - Toko Buku Online Modern</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Favicons -->
+	<link href="https://support.nafii.my.id/icon/avatar2.jpg" rel="icon">
+	<link href="https://support.nafii.my.id/icon/avatar2.jpg" rel="apple-touch-icon">
+
+</head>
+<body>
+
+  <header class="p-3 bg-white border-bottom shadow-sm sticky-top">
+    <div class="container">
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+        <a href="/" class="navbar-brand fs-4 fw-bold text-dark text-decoration-none me-lg-auto">
+          belanja.com
+        </a>
+
+        <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
+          <li><a href="index.html" class="nav-link text-secondary">Beranda</a></li>
+          <li><a href="checkout.html" class="nav-link text-dark">Pesanan</a></li>
+          <li><a href="wishlist.html" class="nav-link text-dark">Wishlist</a></li>
+          <li><a href="chat.html" class="nav-link text-dark">Chat</a></li>
+          <li><a href="detail.html" class="nav-link text-dark">Detail</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="py-4">
+      <div class="container">
+        <div id="heroCarousel" class="carousel slide mb-4 border rounded-3 overflow-hidden" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="source/img/59e9ecd0-b91b-40d4-aef8-b1057be0_auto_x2.jpg~tplv-zr7vqa5nfb-image.jpg" class="d-block w-100" alt="Banner 1">
+            </div>
+            <div class="carousel-item">
+              <img src="source/img/b1d2ed1e-ef80-4d7a-869f-a0394f0629be.jpg~tplv-zr7vqa5nfb-image.jpg" class="d-block w-100" alt="Banner 2">
+            </div>
+            <div class="carousel-item">
+              <img src="source/img/ea701ee6-f36b-473d-b429-4d2a1da0713d.jpg~tplv-zr7vqa5nfb-image.jpg" class="d-block w-100" alt="Banner 3">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+        <h2 class="fs-4 fw-bold text-center mb-4">Katalog Unggulan</h2>
+        <div class="row row-cols-2 row-cols-md-3 row-cols-lg-5 g-3">
+          <div class="col">
+            <div class="card text-center h-100 product-card">
+              <div class="card-body">
+                <i class="fas fa-book-open fa-3x text-primary mb-2"></i>
+                <h6 class="card-title mb-0">Novel Fiksi</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card text-center h-100 product-card">
+              <div class="card-body">
+                <i class="fas fa-brain fa-3x text-primary mb-2"></i>
+                <h6 class="card-title mb-0">Self-Improvement</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card text-center h-100 product-card">
+              <div class="card-body">
+                <i class="fas fa-flask fa-3x text-primary mb-2"></i>
+                <h6 class="card-title mb-0">Sains & Teknologi</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card text-center h-100 product-card">
+              <div class="card-body">
+                <i class="fas fa-landmark fa-3x text-primary mb-2"></i>
+                <h6 class="card-title mb-0">Sejarah Dunia</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+             <div class="card text-center h-100 product-card">
+              <div class="card-body">
+                <i class="fas fa-palette fa-3x text-primary mb-2"></i>
+                <h6 class="card-title mb-0">Seni & Desain</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="products" class="py-5">
+      <div class="container">
+        <h2 class="fs-4 fw-bold mb-4">Semua Buku Untukmu</h2>
+        <div class="row row-cols-2 row-cols-md-3 row-cols-lg-5 g-4">
+          
+          <div class="col">
+            <div class="card h-100 product-card">
+              <img src="source/img/buku_2.jpg" class="card-img-top" alt="Judul Buku" onerror="this.onerror=null;this.src='https://via.placeholder.com/300x400?text=Buku';">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Atomic Habits: Perubahan Kecil yang Memberikan Hasil Luar Biasa</h5>
+                <p class="card-text fw-bold text-primary mb-1 mt-auto">Rp 108.000</p>
+                <small class="text-muted mb-2">Toko Buku Gramed</small>
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                  <span class="ms-1 text-muted">(1.2k)</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col">
+            <div class="card h-100 product-card">
+              <img src="source/img/buku_2.jpg" class="card-img-top" alt="Judul Buku" onerror="this.onerror=null;this.src='https://via.placeholder.com/300x400?text=Buku';">
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Sebuah Seni untuk Bersikap Bodo Amat</h5>
+                <p class="card-text fw-bold text-primary mb-1 mt-auto">Rp 98.000</p>
+                <small class="text-muted mb-2">BookstoreID</small>
+                 <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                   <span class="ms-1 text-muted">(980)</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <script>
+            // Script ini hanya untuk demonstrasi, mengisi 28 item sisanya secara otomatis.
+            // Dalam proyek nyata, Anda akan mengisi ini dari database/backend.
+            const grid = document.querySelector('.row.row-cols-2.row-cols-md-3.row-cols-lg-5');
+            for (let i = 3; i <= 30; i++) {
+              const col = document.createElement('div');
+              col.className = 'col';
+              col.innerHTML = `
+                <div class="card h-100 product-card">
+                  <img src="source/img/buku_2.jpg" class="card-img-top" alt="Judul Buku 2" onerror="this.onerror=null;this.src='https://via.placeholder.com/300x400?text=Buku+2';">
+                  <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">Judul Buku Fiksi Keren Volume 2</h5>
+                    <p class="card-text fw-bold text-primary mb-1 mt-auto">Rp ${Math.floor(Math.random() * 100 + 50)}.000</p>
+                    <small class="text-muted mb-2">Penerbit Pustaka</small>
+                    <div class="rating">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i>
+                      <span class="ms-1 text-muted">(${Math.floor(Math.random() * 500)})</span>
+                    </div>
+                  </div>
+                </div>`;
+              grid.appendChild(col);
+            }
+          </script>
+          
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-white border-top mt-5">
+    <div class="container py-4">
+      <p class="text-center text-muted mb-0">&copy; 2025 belanja.com. Semua Hak Cipta Dilindungi.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  
+  <script src="js/script.js"></script>
+
+</body>
+</html>

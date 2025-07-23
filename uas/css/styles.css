@@ -1,0 +1,263 @@
+/* css/styles.css */
+
+/* Warna dasar dan background */
+body {
+  background-color: #f8f9fa; /* Abu-abu sangat terang */
+}
+
+/* Kustomisasi warna primer Bootstrap ke biru */
+:root {
+  --bs-primary: #0d6efd;
+  --bs-primary-rgb: 13, 110, 253;
+}
+
+.text-primary {
+  color: var(--bs-primary) !important;
+}
+
+/* Styling untuk kartu produk */
+.product-card {
+  border: 1px solid #e0e0e0; /* Border tipis */
+  border-radius: 0.5rem; /* Sedikit lebih rounded */
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  background-color: #ffffff; /* Warna kartu putih */
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  font-size: 1rem;
+  font-weight: 500;
+  /* Membatasi judul buku hanya 2 baris */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  min-height: 2.5rem; /* Menjaga tinggi konsisten */
+}
+
+.card-body {
+  padding: 1rem;
+}
+
+.card-text.fw-bold {
+  font-size: 1.1rem;
+}
+
+/* Styling untuk rating bintang */
+.rating .fa-star {
+  color: #ffc107; /* Warna kuning untuk bintang */
+  font-size: 0.85rem;
+}
+
+/* css/styles.css (Tambahkan di bagian bawah) */
+
+/* Styling untuk halaman Wishlist */
+.wishlist-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 0.5rem;
+  background-color: #ffffff;
+}
+
+.wishlist-store-header {
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.wishlist-item {
+  border-bottom: 1px solid #f0f0f0;
+}
+.wishlist-item:last-child {
+  border-bottom: none; /* Hilangkan border untuk item terakhir di grup */
+}
+
+.wishlist-item-img {
+  width: 80px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 0.25rem;
+}
+
+.wishlist-item-actions a {
+  color: #6c757d; /* Warna ikon abu-abu */
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: color 0.2s ease-in-out;
+}
+
+.wishlist-item-actions a:hover {
+  color: var(--bs-primary); /* Warna ikon menjadi biru saat disentuh */
+}
+
+.btn-action-green {
+  background-color: #1DB954; /* Warna hijau seperti di contoh */
+  color: white;
+  font-weight: bold;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+}
+
+.btn-action-green:hover {
+  background-color: #1AAE4C;
+  color: white;
+}
+
+/* css/styles.css (Tambahkan di bagian bawah) */
+
+/* Styling untuk Halaman Checkout */
+.checkout-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 0.5rem;
+  background-color: #ffffff;
+}
+
+.checkout-section-title {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #6c757d;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.dropdown-toggle::after {
+  margin-left: auto; /* Pindahkan panah dropdown ke kanan */
+}
+
+/* Styling untuk list metode pembayaran */
+.payment-method {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0.75rem 0.25rem;
+}
+
+.payment-method .form-check-input {
+  float: none;
+  margin-left: 1rem;
+}
+
+.payment-logo {
+  height: 20px;
+  max-width: 80px;
+}
+
+/* css/styles.css (Tambahkan di bagian bawah) */
+
+/* Styling untuk Halaman Chat */
+.chat-container {
+  height: calc(100vh - 150px); /* Sesuaikan tinggi agar tidak full sampai bawah */
+  border: 1px solid #e0e0e0;
+  border-radius: 0.5rem;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+/* Kolom daftar chat (tengah) */
+.chat-list-column {
+  border-right: 1px solid #e0e0e0;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.chat-list-header {
+  padding: 1rem;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.chat-list {
+  overflow-y: auto;
+  flex-grow: 1;
+}
+.chat-list .list-group-item {
+  border: none;
+  border-bottom: 1px solid #f0f0f0;
+}
+.chat-list .list-group-item.active {
+  background-color: #e9ecef;
+  font-weight: bold;
+}
+.chat-list-img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.chat-list-preview {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 0.85rem;
+  color: #6c757d;
+}
+
+/* Kolom Jendela Chat (kanan) */
+.chat-window {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.chat-header {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid #e0e0e0;
+  background-color: #f8f9fa;
+}
+.chat-body {
+  flex-grow: 1;
+  overflow-y: auto;
+  padding: 1rem;
+  background-color: #f8f9fa;
+}
+.chat-footer {
+  padding: 0.75rem;
+  border-top: 1px solid #e0e0e0;
+  background-color: #ffffff;
+}
+.chat-input {
+  border-radius: 20px;
+  border: 1px solid #ced4da;
+  background-color: #f1f3f5;
+}
+.btn-send {
+  background-color: #1DB954;
+  color: white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+/* Gelembung Pesan (Chat Bubbles) */
+.chat-bubble-wrapper {
+  margin-bottom: 1rem;
+}
+.chat-bubble {
+  padding: 0.6rem 1rem;
+  border-radius: 1rem;
+  max-width: 75%;
+  font-size: 0.95rem;
+}
+.chat-bubble-received {
+  background-color: #ffffff;
+  border-radius: 0 1rem 1rem 1rem;
+  border: 1px solid #e0e0e0;
+}
+.chat-bubble-sent {
+  background-color: #D1F2EB; /* Warna hijau muda untuk pesan terkirim */
+  border-radius: 1rem 0 1rem 1rem;
+}
+.chat-timestamp {
+  font-size: 0.75rem;
+  color: #6c757d;
+}
+
+/* Kartu Produk di dalam Chat */
+.chat-product-card {
+  max-width: 350px;
+  border-radius: 0.5rem;
+  border: 1px solid #e0e0e0;
+  background-color: #fff;
+}

@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Detail Produk - Belanja.com</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Favicons -->
+	<link href="https://support.nafii.my.id/icon/avatar2.jpg" rel="icon">
+	<link href="https://support.nafii.my.id/icon/avatar2.jpg" rel="apple-touch-icon">
+</head>
+<body>
+
+  <header class="p-3 bg-white border-bottom shadow-sm">
+    <div class="container">
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+        <a href="/" class="navbar-brand fs-4 fw-bold text-dark text-decoration-none me-lg-auto">
+          belanja.com
+        </a>
+        <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
+            <li><a href="index.html" class="nav-link text-dark">Beranda</a></li>
+            <li><a href="checkout.html" class="nav-link text-dark">Pesanan</a></li>
+            <li><a href="wishlist.html" class="nav-link text-dark">Wishlist</a></li>
+            <li><a href="chat.html" class="nav-link text-dark">Chat</a></li>
+            <li><a href="detail.html" class="nav-link text-secondary">Detail</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <main class="py-4">
+    <div class="container">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item"><a href="#">Buku</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Buku Komputer</li>
+        </ol>
+      </nav>
+
+      <div class="row g-4">
+        <div class="col-lg-8">
+          <div class="row g-4">
+            <div class="col-md-5">
+              <img src="source/img/buku_2.jpg" alt="Gambar Buku" class="img-fluid rounded border w-100" onerror="this.onerror=null;this.src='https://via.placeholder.com/400x550?text=Buku';">
+              <div class="row g-2 mt-2">
+                <div class="col-3"><img src="source/img/buku_2.jpg" class="img-fluid rounded border w-100" alt="thumbnail" onerror="this.onerror=null;this.src='https://via.placeholder.com/100';"></div>
+                <div class="col-3"><img src="source/img/buku_2.jpg" class="img-fluid rounded border w-100" alt="thumbnail"></div>
+                <div class="col-3"><img src="source/img/buku_2.jpg" class="img-fluid rounded border w-100" alt="thumbnail"></div>
+              </div>
+            </div>
+
+            <div class="col-md-7">
+              <h1>Buku Pemrograman Jaringan Komputer dengan Python</h1>
+              <div class="d-flex align-items-center mb-2 text-muted small">
+                <span>Terjual 500+</span>
+                <span class="mx-2">|</span>
+                <span><i class="fas fa-star text-warning"></i> 4.9 (224 rating)</span>
+              </div>
+              <h2 class="text-primary fw-bold mb-2">Rp192.000</h2>
+              <p class="text-muted"><s class="me-2">Rp229.000</s> <span class="badge bg-danger">22% OFF</span></p>
+            </div>
+          </div>
+
+          <div class="mt-4 pt-4 border-top">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="detail-tab" data-bs-toggle="tab" data-bs-target="#detail-tab-pane" type="button" role="tab" aria-controls="detail-tab-pane" aria-selected="true">Detail</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="spesifikasi-tab" data-bs-toggle="tab" data-bs-target="#spesifikasi-tab-pane" type="button" role="tab" aria-controls="spesifikasi-tab-pane" aria-selected="false">Spesifikasi</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="info-tab" data-bs-toggle="tab" data-bs-target="#info-tab-pane" type="button" role="tab" aria-controls="info-tab-pane" aria-selected="false">Info Penting</button>
+              </li>
+            </ul>
+            <div class="tab-content p-3 border border-top-0 rounded-bottom" id="myTabContent">
+              <div class="tab-pane fade show active" id="detail-tab-pane" role="tabpanel" aria-labelledby="detail-tab" tabindex="0">
+                <p>Buku "Pemrograman Jaringan Komputer dengan Python" adalah panduan komprehensif untuk siapa saja yang ingin mempelajari cara membangun dan mengelola aplikasi jaringan menggunakan kekuatan Python.</p>
+                <p>Mulai dari dasar-dasar socket programming hingga topik-topik lanjutan seperti asynchronous I/O dan keamanan jaringan, buku ini mencakup semua yang Anda butuhkan untuk menjadi seorang profesional di bidang jaringan.</p>
+                <h6>Fitur Unggulan:</h6>
+                <ul>
+                  <li>Penjelasan konsep yang mudah dipahami.</li>
+                  <li>Contoh kode praktis dan studi kasus nyata.</li>
+                  <li>Mencakup library Python populer seperti Scapy, Twisted, dan asyncio.</li>
+                  <li>Cocok untuk pemula maupun programmer berpengalaman.</li>
+                </ul>
+              </div>
+              <div class="tab-pane fade" id="spesifikasi-tab-pane" role="tabpanel" aria-labelledby="spesifikasi-tab" tabindex="0">
+                <table class="table table-striped">
+                  <tbody>
+                    <tr><th scope="row" style="width: 150px;">ISBN</th><td>978-602-06-3856-1</td></tr>
+                    <tr><th scope="row">Jumlah Halaman</th><td>352</td></tr>
+                    <tr><th scope="row">Tanggal Terbit</th><td>15 Jan 2025</td></tr>
+                    <tr><th scope="row">Penerbit</th><td>Penerbit Informatika</td></tr>
+                    <tr><th scope="row">Bahasa</th><td>Indonesia</td></tr>
+                    <tr><th scope="row">Berat</th><td>0.45 kg</td></tr>
+                    <tr><th scope="row">Dimensi</th><td>14 cm x 21 cm</td></tr>
+                  </tbody>
+                </table>
+              </div>
+              <div class="tab-pane fade" id="info-tab-pane" role="tabpanel" aria-labelledby="info-tab" tabindex="0">
+                <p><strong>Keaslian Produk:</strong> Kami menjamin semua buku yang dijual adalah 100% ASLI dan BARU, langsung dari penerbit.</p>
+                <p><strong>Kebijakan Pengiriman:</strong> Pesanan yang masuk sebelum pukul 15:00 WIB akan diproses pada hari yang sama. Pesanan di hari Minggu atau hari libur nasional akan diproses pada hari kerja berikutnya.</p>
+                <p><strong>Pengemasan:</strong> Setiap buku akan dibungkus dengan bubble wrap tebal secara GRATIS untuk memastikan keamanannya selama pengiriman.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="card position-sticky" style="top: 20px;">
+            <div class="card-body">
+              <h5 class="card-title">Atur jumlah dan catatan</h5>
+              <div class="d-flex align-items-center my-3">
+                <img src="source/img/buku_2.jpg" alt="buku" style="width: 50px; height: 50px; object-fit: cover;" class="rounded me-3">
+                <p class="mb-0">Buku Pemrograman Jaringan</p>
+              </div>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="input-group" style="width: 120px;">
+                  <button class="btn btn-outline-secondary" type="button" id="btnMinus">-</button>
+                  <input type="text" class="form-control text-center" value="1" id="quantityInput" readonly>
+                  <button class="btn btn-outline-secondary" type="button" id="btnPlus">+</button>
+                </div>
+                <span class="text-muted">Stok: 374</span>
+              </div>
+              <hr>
+              <div class="d-flex justify-content-between">
+                <span class="text-muted">Subtotal</span>
+                <span class="fw-bold fs-5 text-primary">Rp192.000</span>
+              </div>
+              <div class="d-grid gap-2 mt-3">
+                <button class="btn btn-success"><i class="fas fa-cart-plus me-2"></i>Keranjang</button>
+                <button class="btn btn-primary">Beli Langsung</button>
+              </div>
+              <div class="d-flex justify-content-start gap-3 text-muted small mt-3">
+                <a href="#" class="text-muted text-decoration-none"><i class="far fa-comment-dots me-1"></i>Chat</a>
+                <a href="#" class="text-muted text-decoration-none"><i class="far fa-heart me-1"></i>Wishlist</a>
+                <a href="#" class="text-muted text-decoration-none"><i class="fas fa-share-alt me-1"></i>Share</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="bg-white border-top mt-5"><div class="container py-4"><p class="text-center text-muted mb-0">&copy; 2025 belanja.com. Semua Hak Cipta Dilindungi.</p></div></footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="js/script.js" defer></script>
+</body>
+</html>
